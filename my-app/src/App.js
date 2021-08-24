@@ -1,5 +1,4 @@
 import './App.css';
-import SearchResult from './Main';
 import { Counter } from "./Counter";
 
 function App(props) {
