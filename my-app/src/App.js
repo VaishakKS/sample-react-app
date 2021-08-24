@@ -1,25 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import SearchResult from './Main';
+import { Counter } from "./Counter";
 
-function App() {
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>Understanding State</h1>
+      <Counter></Counter>
+      <Counter></Counter>
     </div>
   );
 }
-
 export default App;
